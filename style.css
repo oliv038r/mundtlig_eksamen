@@ -213,6 +213,7 @@ body {
 }
 
 @media (max-width: 1000px) {
+
     .about {
         margin-top: 75px;
     }
@@ -250,6 +251,7 @@ body {
         margin-bottom: 35px;
         margin-left: 25%;
     }
+
 }
 
 @media (max-width: 600px) {
