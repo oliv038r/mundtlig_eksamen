@@ -67,16 +67,12 @@ body {
 
 .about {
     display: flex;
-    width: auto;
+    width: 200px;
     height: auto;
-    margin-top: 0px;
-    color: #4a4a4a;
-    font-size: 36px;
-    line-height: 42px;
-    font-family: 'Poppins', sans-serif;
+    margin-left: 20%;
 }
 
-.about-text {
+.about_text {
     display: block;
     width: 100%;
     margin-top: 25px;
@@ -84,13 +80,17 @@ body {
     align-items: flex-start;
     font-size: 16px;
     line-height: 26px;
+    text-align: center;
+
 }
 
 .aboutme_btn {
     padding: 15px 45px;
     border-radius: 100px;
-    background-color: #221E28;
+    background-color: #80B002;
     font-size: 16px;
+    margin-left: 25%;
+
 }
 
 .w-button {
@@ -101,7 +101,7 @@ body {
     text-decoration: none;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
 
 }
 
@@ -109,6 +109,7 @@ body {
     height: 24px;
     margin-top: 45px;
     margin-bottom: 65px;
+    text-align: center;
 }
 
 .content-wrapper {
@@ -131,6 +132,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
     margin-left: 95%;
+    font-weight: 600;
 }
 
 .title {
@@ -160,7 +162,6 @@ body {
     background-color: #221E28;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
 }
 
 .tema3 {
@@ -215,13 +216,15 @@ body {
 @media (max-width: 1000px) {
 
     .about {
-        margin-top: 75px;
+        margin-left: 30%;
+        height: 400px;
+        width: auto;
     }
 
     .sidebar-wrapper {
         position: static;
         width: 100%;
-        height: 750px;
+        height: auto;
         padding-right: 55px;
         padding-left: 55px;
     }
@@ -236,15 +239,22 @@ body {
     .about_text {
         width: 100%;
         margin-top: 35px;
+        padding-right: 85px;
+        padding-left: 85px;
+    }
+
+    .aboutme_btn {
+        margin-left: 40%;
     }
 
     .social {
         opacity: 1;
+        text-align: center;
     }
 
     .about-container {
         position: static;
-        width: 65%;
+        width: 100%;
     }
 
     .tema_image {
@@ -256,10 +266,9 @@ body {
 
 @media (max-width: 600px) {
     .about {
+        height: 500px;
         width: auto;
-        margin-top: 35px;
-        font-size: 30px;
-        line-height: 36px;
+        margin: 0;
     }
 
     .sidebar-wrapper {
@@ -277,6 +286,10 @@ body {
     .footer-wrapper {
         padding-right: 35px;
         padding-left: 35px;
+    }
+
+    .aboutme_btn {
+        margin-left: 30%;
     }
 
     .about_text {
