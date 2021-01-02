@@ -24,7 +24,6 @@ p {
     margin-bottom: 10px;
     font-family: 'Raleway', sans-serif;
     color: white;
-
 }
 
 h1 {
@@ -41,99 +40,6 @@ body {
     line-height: 20px;
     color: black;
     display: block;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: #221E28;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-}
-
-
-
-.logo {
-    position: relative;
-    float: left;
-    text-decoration: none;
-}
-
-.logotext {
-    position: static;
-    margin-bottom: -5px;
-    margin-left: 49px;
-    padding-left: 16px;
-    float: none;
-    clear: none;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    font-size: 12px;
-    line-height: 17px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.tagline {
-    font-size: 10px;
-    font-weight: 300;
-    letter-spacing: 1.1px;
-    text-transform: none;
-}
-
-.navlinks.active {
-    border-radius: 25px;
-    background-color: #fff;
-    color: #221E28;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: space-evenly;
-    width: 70%;
-    margin-top: 15px;
-}
-
-.nav-links li {
-    list-style: none;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 11px;
-    padding: 5px 12px 5px 16px;
-    letter-spacing: 2.75px;
-
-
-}
-
-.nav-links a:hover {
-    text-decoration: underline;
-}
-
-.navlinks.active {
-    border-radius: 35px;
-    background-color: #fff;
-    color: #221E28;
-}
-
-
-
-.burger {
-    display: none;
-    cursor: pointer;
-}
-
-.burger div {
-    width: 25px;
-    height: 5px;
-    background-color: white;
-    margin: 5px;
-    transition: all 0.3s ease;
 }
 
 /* Main */
@@ -245,10 +151,9 @@ h3 {
 @media screen and (max-width: 1000px) {
     .sidebar-wrapper {
         position: static;
-        width: 100%;
+        width: auto;
         height: 750px;
-        padding-right: 55px;
-        padding-left: 55px;
+
     }
 
     .content-wrapper {
@@ -260,93 +165,14 @@ h3 {
 
     .about-container {
         position: static;
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 100%;
+
     }
 
     .tema_image {
         margin-bottom: 35px;
         margin-left: 25%;
     }
-
-
-
-    body {
-        overflow-x: hidden;
-    }
-
-
-    nav {
-        width: 100%;
-        height: 12vh;
-
-    }
-
-    header {
-        position: sticky;
-        z-index: 1;
-        top: 0;
-        overflow-x: hidden;
-    }
-
-    .nav-links {
-        position: fixed;
-        right: 0;
-        height: 100vh;
-        top: 0vh;
-        background-color: white;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 25%;
-        transform: translateX(100%);
-        margin-top: 0;
-    }
-
-    .navlinks.active {
-        background-color: #221E28;
-        color: white;
-    }
-
-    .nav-links a {
-        font-size: 14px;
-        color: black;
-    }
-
-    .nav-links li {
-        opacity: 1;
-    }
-
-    .burger {
-        display: block;
-    }
-}
-
-.nav-active {
-    transform: translateX(0%);
-}
-
-.overflow {
-    overflow: hidden;
-}
-
-/* Burger menu til X */
-
-.toggle .line1 {
-    transform: rotate(-45deg) translate(-7px, 7px);
-    background-color: black;
-
-}
-
-.toggle .line2 {
-    opacity: 0;
-}
-
-.toggle .line3 {
-    transform: rotate(45deg) translate(-7px, -7px);
-    background-color: black;
 
 }
 
@@ -356,30 +182,13 @@ h3 {
         margin: 0;
         font-size: 30px;
         line-height: 36px;
-        text-align: center;
     }
 
     .sidebar-wrapper {
         position: static;
         width: 100%;
-        text-align: center;
         margin: 0;
-        left: 0px;
-        top: 0px;
-        right: 552px;
-
-
-
     }
-
-    left: 0px;
-    top: 50px;
-    right: 552px;
-    bottom: 0px;
-    z-index: 0;
-    width: 40%;
-    height: 100%;
-    padding: 75px 85px 50px;
 
     .content-wrapper {
         width: 100%;
@@ -402,9 +211,9 @@ h3 {
         width: 100%;
     }
 
-
     .about-container {
         position: static;
         width: 100%;
+        margin: 0;
     }
 }

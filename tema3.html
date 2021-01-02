@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grundlæggende UX</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tema3.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;800&display=swap" rel="stylesheet">
@@ -12,24 +13,29 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="navbar-container">
+    <header>
+        <nav>
             <a class="logo" href="index.html">
                 <h1 class="logotext"> Oliver Hanert <br>
                     <span class="tagline">Multimediedesigner KEA</span>
                 </h1>
             </a>
-            <nav class="nav">
-                <a class="navlinks navlinks2" href="index.html">Home</a>
-                <a class="navlinks navlinks2" href="tema2.html">Tema 2</a>
-                <a class="navlinks active navlinks2" href="tema3.html">Tema 3</a>
-                <a class="navlinks navlinks2" href="tema4.html">Tema 4</a>
-                <a class="navlinks navlinks2" href="tema5.html">Tema 5</a>
-                <a class="navlinks navlinks2" href="tema6.html">Tema 6</a>
-                <a class="navlinks navlinks2" href="aboutme.html">About Me</a>
-            </nav>
-        </div>
-    </div>
+            <ul class="nav-links">
+                <li> <a class="navlinks" href="index.html">Hjem</a></li>
+                <li> <a class="navlinks" href="tema2.html">Tema 2</a></li>
+                <li> <a class="navlinks active" href="tema3.html">Tema 3</a></li>
+                <li> <a class="navlinks" href="tema4.html">Tema 4</a></li>
+                <li> <a class="navlinks" href="tema5.html">Tema 5</a></li>
+                <li> <a class="navlinks" href="tema6.html">Tema 6</a></li>
+                <li> <a class="navlinks" href="aboutme.html">Om Mig</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
     <div class="sidebar-wrapper">
         <div class="about-container">
             <h1 class="about"> Grundlæggende UX</h1>
@@ -57,5 +63,5 @@
         </div>
 
     </div>
-    <script src="tema3.js"></script>
+    <script src="script.js"></script>
 </body></html>
