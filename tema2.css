@@ -2,6 +2,15 @@ body {
     background: #221E28;
 }
 
+.maintitle {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 7%;
+    text-transform: uppercase;
+    letter-spacing: 2.75px;
+}
+
 .tiles {
     z-index: 999;
     max-width: 90%;
@@ -20,6 +29,14 @@ body {
     padding: 3em 3em 4em;
 }
 
+.tile1 {
+    background: linear-gradient(338.83deg, #f8c6ff -3.41%, rgba(255, 196, 255, 0) 52.31%), #ffeec4;
+}
+
+.tile2 {
+    background: linear-gradient(6.03deg, #dacdff .5%, rgba(218, 205, 255, 0) 46.89%), #ffeaee;
+}
+
 .tile-number {
     display: block;
     font-family: 'Poppins', sans-serif;
@@ -28,6 +45,8 @@ body {
     text-align: left;
     letter-spacing: 1.5px;
     font-weight: 600;
+    color: gray;
+
 }
 
 .tile-title {
@@ -36,6 +55,9 @@ body {
     margin-bottom: 1em;
     text-align: left;
     font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+
 
 }
 
@@ -50,7 +72,7 @@ body {
     position: relative;
     transition: all .4s ease-in-out;
     display: inline-block;
-    max-width: 80%;
+    max-width: 75%;
 }
 
 @media (min-width: 544px) {

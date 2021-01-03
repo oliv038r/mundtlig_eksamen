@@ -87,6 +87,32 @@ nav {
     text-transform: none;
 }
 
+/*drop-down*/
+
+ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 10rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    display: none;
+    padding: 1em 0;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+
+/*selve navigationen*/
 .nav-links {
     display: flex;
     justify-content: space-evenly;
@@ -96,6 +122,8 @@ nav {
 
 .nav-links li {
     list-style: none;
+    display: block;
+    transition-duration: 0.5s;
 }
 
 .nav-links a {
@@ -107,14 +135,20 @@ nav {
 }
 
 .nav-links a:hover {
-    text-decoration: underline;
+    position: relative;
+    bottom: 2px;
+    display: inline;
+    background: white;
+    border-radius: 35px;
+    color: black;
 }
 
 .navlinks.active {
     border-radius: 35px;
-    background-color: #fff;
-    color: #221E28;
+    background-color: white;
+    color: black;
 }
+
 
 .burger {
     display: none;
