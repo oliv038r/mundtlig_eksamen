@@ -15,6 +15,4 @@ function toggleMenu() {
     document.querySelector(".burger").classList.toggle('toggle');
     document.querySelector("body").classList.toggle('overflow');
 
-
-
 }
