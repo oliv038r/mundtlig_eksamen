@@ -1,13 +1,13 @@
-.project-hero-rs {
+.project-hero-ide {
     background: linear-gradient(350deg, #f8c6ff -6%, rgba(255, 196, 255, 0) 60%), #ffeec4;
 }
 
 .project-hero {
     position: relative;
     padding: 35px 0 0;
-    height: 490px;
+    height: 230px;
     z-index: -1;
-
+    margin-bottom: 4em;
 }
 
 .project-hero-container {
@@ -15,7 +15,6 @@
     margin: 0 auto;
     transition: all .2s ease-in-out;
     margin-bottom: 10px;
-
 }
 
 .project-title {
@@ -39,7 +38,7 @@
     max-width: 90%;
 }
 
-.project-images-rs img {
+.project-images-ide img {
     max-width: 30%;
 }
 
@@ -70,12 +69,11 @@
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
+    position: relative;
 }
-
 
 .section-row {
     box-sizing: border-box;
-
 }
 
 .section-col {
@@ -96,56 +94,15 @@
     text-transform: uppercase;
 }
 
+.first-section-ide h2 {
+    margin-top: 0;
+}
+
 .first-section p {
     margin-top: 1.5em;
     font-size: 18px;
     line-height: 32px;
     color: #656270;
-}
-
-.second-section-rs {
-    margin: 5em auto 0;
-}
-
-.second-section {
-    position: relative;
-}
-
-.examples-row-rs {
-    max-width: 1600px;
-}
-
-.examples-row {
-    width: 100%;
-    display: grid;
-    position: relative;
-    z-index: -1;
-}
-
-.examples-block-rs {
-    max-width: 444px;
-    margin: 0 auto;
-}
-
-.examples-block {
-    position: relative;
-}
-
-.examples-img-rs {
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.second-section-rs:before {
-    z-index: -1;
-    background: linear-gradient(343.21deg, #f8c6ff 3.25%, rgba(255, 196, 255, 0) 58.56%), #ffeec4;
-    width: 100%;
-    height: 80%;
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 10%;
-    border-radius: 20px;
 }
 
 .third-section {
@@ -156,18 +113,18 @@
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
+    position: relative;
 }
 
 .third-section h2 {
-    margin-top: 2em;
     line-height: 120%;
     color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 3em;
     text-transform: uppercase;
+    margin-top: 1.5em;
 }
-
 
 .third-section p {
     margin-top: 1.5em;
@@ -176,58 +133,19 @@
     color: #656270;
 }
 
-.proces {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-}
-
-.proces-pos {
-    position: relative;
-}
-
-.flexy-block {
-    box-sizing: border-box;
-    max-width: 45%;
-    height: 600px;
-    min-width: 0;
-    flex-basis: auto;
-    overflow-x: auto;
-    overflow-y: auto;
-    position: relative;
-    filter: drop-shadow(0 52px 74px rgba(0, 21, 64, .138559));
-    border-radius: 20px;
-}
-
-.flexy-block-nomove {
-    height: auto;
-}
-
-.work > img {
-    position: relative;
-}
-
 .fourth-section {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    max-width: 95%;
+    max-width: 100%;
 }
 
-.recording-container {
-    width: 100%;
-    max-width: 1498px;
-    overflow: hidden;
-    box-shadow: 0 52px 74px rgba(0, 21, 64, .138559);
-}
-
-.recording {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+.fourth-section iframe {
+    border-radius: 30px;
+    border-style: none;
+    width: 90%;
+    height: 700px;
 }
 
 
@@ -238,32 +156,20 @@
         letter-spacing: -.5px;
     }
 
-    .second-section-rs:before {
+    .second-section-ide:before {
         display: block;
-
     }
 
     .fourth-section {
-        margin: 6em auto 0;
+        margin: 6em auto 16em;
     }
-
-    .recording-container {
-        border-radius: 20px;
-    }
-
-    .recording {
-        border-radius: 10px;
-    }
-
 }
 
-@media (min-width: 992px) {
-    .project-hero-rs {
-        margin-bottom: 20em;
-    }
 
-    .second-section-rs {
-        max-width: 95%;
+
+@media (min-width: 992px) {
+    .project-hero-ide {
+        margin-bottom: 5em;
     }
 }
 
@@ -281,29 +187,29 @@
         font-size: 70px;
     }
 
-    .project-images-rs img {
+    .project-images-ide img {
         filter: drop-shadow(0 52px 74px rgba(0, 21, 64, .138559));
     }
 
-    .project-images-rs img:nth-child(2) {
+    .project-images-ide img:nth-child(2) {
         top: -70px;
     }
 
-    .project-images-rs img:nth-child(3) {
+    .project-images-ide img:nth-child(3) {
         top: -180px;
     }
 
-    .examples-row-rs {
-        gap: 3em;
-        margin: 3em auto;
-        grid-template-columns: repeat(3, 1fr);
+    .section-row {
+        display: flex;
+        box-sizing: border-box;
+        margin-left: -15px;
+        margin-right: -15px;
     }
 
-    .proces {
-        margin: 4em 0 0;
+    .fourth-section {
+        max-width: 70%;
+        height: 500px;
     }
 
-    .work {
-        margin: 2em auto;
-    }
+
 }
