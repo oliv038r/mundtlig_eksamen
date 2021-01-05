@@ -9,7 +9,9 @@ body {
     margin-top: 7%;
     text-transform: uppercase;
     letter-spacing: 2.75px;
-    font-size: 2rem
+    font-size: 1rem;
+    line-height: 1;
+
 }
 
 .tiles {
@@ -89,6 +91,10 @@ body {
 
     .tile:hover img {
         transform: translate3d(0, -10px, 0)
+    }
+
+    .maintitle {
+        font-size: 3rem;
     }
 
     .tile-title {

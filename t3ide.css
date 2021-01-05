@@ -74,8 +74,6 @@
 
 .section-row {
     box-sizing: border-box;
-    margin-left: -15px;
-    margin-right: -15px;
 }
 
 .section-col {
@@ -225,12 +223,14 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    max-width: 70%;
+    max-width: 100%;
 }
 
 .fourth-section iframe {
     border-radius: 30px;
     border-style: none;
+    width: 100%;
+    height: 700px;
 }
 
 .recording-container {
@@ -350,4 +350,11 @@
         padding-right: 15px;
         position: relative;
     }
+
+    .fourth-section {
+        max-width: 70%;
+        height: 500px;
+    }
+
+
 }
