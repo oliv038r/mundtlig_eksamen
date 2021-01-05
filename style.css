@@ -45,6 +45,7 @@ body {
     line-height: 20px;
     color: black;
     display: block;
+    overflow-x: hidden;
 }
 
 /* Navigation */
