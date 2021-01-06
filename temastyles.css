@@ -216,6 +216,7 @@
     overflow: hidden;
     box-shadow: 0 52px 74px rgba(0, 21, 64, .138559);
     border-radius: 20px;
+    margin-bottom: 10em;
 }
 
 .recording {
@@ -289,7 +290,6 @@
 
 /* --------------------------- continue sektion ------------------------*/
 
-
 .continue {
     border: 4px solid #fdf5ee;
     max-width: 95%;
@@ -324,6 +324,8 @@
     text-transform: uppercase;
     font-size: 35px;
 }
+
+
 
 .continue-link:before {
     z-index: 5;
@@ -454,6 +456,15 @@
         text-align: center;
     }
 
+    .continue-link-long {
+        font-size: 2.5em;
+    }
+
+    .continue-arrow-next-long {
+        top: -30px;
+        right: 60px;
+    }
+
 
 }
 
@@ -509,5 +520,9 @@
 
     .text-section-top-pt h2 {
         margin-top: 2em;
+    }
+
+    .continue-link-long {
+        font-size: 2em;
     }
 }
