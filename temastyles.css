@@ -6,6 +6,7 @@
     margin-top: 10em;
     margin-bottom: 2em;
     background: linear-gradient(350deg, #f8c6ff -6%, rgba(255, 196, 255, 0) 60%), #ffeec4;
+    padding: 2em;
 }
 
 .continue-microcopy {
@@ -17,6 +18,7 @@
     display: block;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
+    font-size: 12px;
 }
 
 .continue-link {
@@ -28,6 +30,7 @@
     transition: all .2s ease-in-out;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
+    font-size: 35px;
 }
 
 .continue-link:before {
@@ -42,6 +45,10 @@
     background: rgba(201, 180, 234, 0.98);
     transform: rotate(-1deg);
     transition: all .2s cubic-bezier(.175, .885, .32, 1.275);
+}
+
+.continue-col-left {
+    margin: 0 0 2em;
 }
 
 .continue-link:hover {
@@ -71,6 +78,7 @@
 .continue-arrow {
     position: absolute;
     z-index: 5;
+    display: none;
 }
 
 @media (min-width: 544px) {
