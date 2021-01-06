@@ -157,7 +157,8 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    display: flex;    position: relative;
+    display: flex;
+    position: relative;
 }
 
 .third-section h2 {
@@ -354,5 +355,3 @@
         height: 500px;
     }
 }
-
-

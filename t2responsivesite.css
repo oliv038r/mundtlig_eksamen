@@ -1,3 +1,25 @@
+/* --------------------------- Generelt --------------------------*/
+
+.section-row {
+    box-sizing: border-box;
+
+}
+
+.section-col {
+    margin-left: 25%;
+    width: 50%;
+    float: left;
+    margin-bottom: 10%;
+    box-sizing: border-box;
+}
+
+p,
+h2 {
+    text-align: center;
+}
+
+/* --------------------------- Hero ----------------------------*/
+
 .project-hero-rs {
     background: linear-gradient(350deg, #f8c6ff -6%, rgba(255, 196, 255, 0) 60%), #ffeec4;
 }
@@ -5,10 +27,8 @@
 .project-hero {
     position: relative;
     padding: 35px 0 0;
-    height: 490px;
+    height: 1100px;
     z-index: -1;
-    margin-bottom: 2em;
-
 }
 
 .project-hero-container {
@@ -16,6 +36,7 @@
     margin: 0 auto;
     transition: all .2s ease-in-out;
     margin-bottom: 10px;
+    padding: 14em 0;
 
 }
 
@@ -25,10 +46,11 @@
     color: #232320;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
+    font-size: 70px;
 }
 
 .project-sub-title {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 32px;
     color: black;
     opacity: 0.7;
@@ -42,18 +64,26 @@
 
 .project-images-rs img {
     max-width: 30%;
+    filter: drop-shadow(0 52px 74px rgba(0, 21, 64, .138559));
 }
 
-.project-images-ide img {
-    max-width: 30%;
-    box-shadow: 0 52px 74px rgba(0, 21, 64, .138559);
-}
 
 .project-images img {
     transition: all .2s ease-in-out;
     position: relative;
-
 }
+
+.project-images-rs img:nth-child(2) {
+    top: -70px;
+}
+
+.project-images-rs img:nth-child(3) {
+    top: -180px;
+}
+
+/* --------------------------- Text section --------------------------*/
+
+
 
 .flexy {
     box-sizing: border-box;
@@ -71,21 +101,9 @@
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
-}
-
-
-.section-row {
-    box-sizing: border-box;
 
 }
 
-.section-col {
-    margin-left: 25%;
-    width: 50%;
-    float: left;
-    margin-bottom: 10%;
-    box-sizing: border-box;
-}
 
 .first-section h2 {
     line-height: 120%;
@@ -94,7 +112,9 @@
     font-weight: 500;
     font-size: 3em;
     text-transform: uppercase;
-
+    font-size: 42px;
+    letter-spacing: -.5px;
+    margin-top: 14em;
 }
 
 .first-section p {
@@ -103,6 +123,9 @@
     line-height: 32px;
     color: #656270;
 }
+
+/* --------------------------- Text section --------------------------*/
+
 
 .third-section {
     max-width: 1600px;
@@ -132,11 +155,15 @@
     color: #656270;
 }
 
+/* --------------------------- Proces (2 billeder) --------------------*/
+
+
 .proces {
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
+    margin: 4em 0 0;
 }
 
 .proces-pos {
@@ -163,14 +190,19 @@
 
 .work {
     border-radius: 30px;
+    margin: 2em auto;
 }
 
-.fourth-section {
+
+/* --------------------------- Video sektion --------------------------*/
+
+.video-section {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     max-width: 95%;
+    margin: 6em auto 0;
 }
 
 .recording-container {
@@ -178,6 +210,7 @@
     max-width: 1498px;
     overflow: hidden;
     box-shadow: 0 52px 74px rgba(0, 21, 64, .138559);
+    border-radius: 20px;
 }
 
 .recording {
@@ -185,71 +218,38 @@
     height: 100%;
     object-fit: cover;
     display: block;
+    border-radius: 10px;
 }
 
 
 
-@media (min-width: 544px) {
+
+@media (max-width: 1024px) {
     .first-section h2 {
-        font-size: 42px;
-        letter-spacing: -.5px;
+        margin-top: 2em;
     }
-
-    .fourth-section {
-        margin: 6em auto 0;
-    }
-
-    .recording-container {
-        border-radius: 20px;
-    }
-
-    .recording {
-        border-radius: 10px;
-    }
-
 }
 
-@media (min-width: 992px) {
-    .project-hero-rs {
-        margin-bottom: 20em;
+@media (max-width: 420px) {
+    .project-title {
+        font-size: 32px;
     }
 
-
-
-    @media (min-width: 768px) {
-        .project-hero {
-            height: 1100px;
-        }
-
-        .project-hero-container {
-            padding: 14em 0;
-        }
-
-        .project-title {
-            font-size: 70px;
-        }
-
-        .project-images-rs img {
-            filter: drop-shadow(0 52px 74px rgba(0, 21, 64, .138559));
-        }
-
-        .project-images-rs img:nth-child(2) {
-            top: -70px;
-        }
-
-        .project-images-rs img:nth-child(3) {
-            top: -180px;
-        }
-
-        .proces {
-            margin: 4em 0 0;
-        }
-
-        .work {
-            margin: 2em auto;
-        }
-
-        .first-section h2 {
-            margin-top: 8em;
-        }
+    .project-images-rs img:nth-child(2) {
+        top: -0px;
     }
+
+    .project-images-rs img:nth-child(3) {
+        top: -0px;
+    }
+
+    .project-hero-container {
+        padding: 3em 4em;
+        width: 95%;
+        text-align: center;
+    }
+
+    .project-hero {
+        height: 450px;
+    }
+}
