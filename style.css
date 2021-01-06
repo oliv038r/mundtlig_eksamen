@@ -22,8 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-bottom: 10px;
-}
+    margin-bottom: 10px;}
 
 p {
     margin-bottom: 10px;
@@ -185,7 +184,7 @@ ul li ul li {
 }
 
 
-/*main */
+/*main - forside */
 
 .sidebar-wrapper {
     position: fixed;
@@ -336,15 +335,6 @@ ul li ul li {
     color: white;
     font-family: 'Poppins', sans-serif;
 
-}
-
-.tema6 {
-    width: 100%;
-    height: auto;
-    padding: 65px;
-    background-color: #0d2b4e;
-    color: white;
-    font-family: 'Poppins', sans-serif;
 }
 
 .footer-wrapper {
