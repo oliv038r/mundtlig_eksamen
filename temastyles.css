@@ -2,7 +2,6 @@
 
 .section-row {
     box-sizing: border-box;
-
 }
 
 .section-col {
@@ -242,8 +241,6 @@
     max-width: 1600px;
 }
 
-
-
 .examples-block {
     position: relative;
     max-width: 444px;
@@ -419,6 +416,11 @@
 
 
 @media (max-width: 1024px) {
+
+    .section-row {
+        max-width: 1024px;
+    }
+
     .text-section-top h2 {
         margin-top: 2em;
     }
@@ -456,16 +458,19 @@
         text-align: center;
     }
 
-    .continue-link-long {
+    .continue-link {
         font-size: 2.5em;
     }
 
-    .continue-arrow-next-long {
+    .continue-arrow-next {
         top: -30px;
-        right: 60px;
+        right: -150px;
     }
 
-
+    .continue-arrow-prev {
+        top: 100px;
+        right: 150px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -522,7 +527,7 @@
         margin-top: 2em;
     }
 
-    .continue-link-long {
+    .continue-link {
         font-size: 2em;
     }
 
