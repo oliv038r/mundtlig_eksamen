@@ -202,10 +202,7 @@
 
 .flexy-block-nomove {
     height: auto;
-}
-
-.work > img {
-    position: relative;
+    width: 1500px;
 }
 
 .fourth-section {
@@ -213,7 +210,19 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    max-width: 95%;
+    max-width: 100%;
+}
+
+.third-section a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    letter-spacing: -1px;
+    line-height: 120%;
+    color: #232320;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+
 }
 
 .recording-container {

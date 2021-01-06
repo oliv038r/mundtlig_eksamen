@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tema 4</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="tema4.css">
+    <link rel="stylesheet" href="stylelanding.css">
 </head>
 
 <body>
@@ -19,11 +19,30 @@
             </a>
             <ul class="nav-links">
                 <li> <a class="navlinks" href="index.html">Hjem</a></li>
-                <li> <a class="navlinks" href="tema2.html">Tema 2</a></li>
-                <li> <a class="navlinks" href="tema3.html">Tema 3</a></li>
-                <li> <a class="navlinks active" href="tema4.html">Tema 4</a></li>
-                <li> <a class="navlinks" href="tema5.html">Tema 5</a></li>
-                <li> <a class="navlinks" href="tema6.html">Tema 6</a></li>
+                <li> <a class="navlinks" href="tema2.html">Tema 2</a>
+                    <ul class="dropdown">
+                        <li><a class="sub" href="t2responsivesite.html">Responsive Site</a></li>
+                    </ul>
+                </li>
+                <li> <a class="navlinks" href="tema3.html">Tema 3</a>
+                    <ul class="dropdown">
+                        <li><a class="sub" href="t3ide.html">Idé</a></li>
+                        <li><a class="sub" href="t3prototype.html">Endelig Prototype</a></li>
+                        <li><a class="sub" href="t3pitch.html">Pitch</a></li>
+                    </ul>
+                </li>
+                <li> <a class="navlinks active" href="tema4.html">Tema 4</a>
+                    <ul class="dropdown">
+                        <li><a class="sub" href="t4assetdesign.html">Assetliste og designdokumentation</a></li>
+                        <li><a class="sub" href="t4spil.html">Individuelt Spil</a></li>
+                    </ul>
+                </li>
+                <li> <a class="navlinks" href="tema5.html">Tema 5</a>
+                    <ul class="dropdown">
+                        <li><a class="sub" href="t5pilot.html">Pilotprojekt</a></li>
+                        <li><a class="sub" href="t5redesign.html">Redesign og temadokumentation</a></li>
+                    </ul>
+                </li>
                 <li> <a class="navlinks" href="aboutme.html">Om Mig</a></li>
             </ul>
             <div class="burger">
@@ -34,23 +53,25 @@
         </nav>
     </header>
     <main>
+        <div class="maintitle">
+            <h1> Animation</h1>
+        </div>
         <div class="tiles">
-            <a href="t2responsivesite.html" class="tile">
-                <span class="tile-number">02.04.02</span>
-                <h2 class="tile-title">Grundlæggende HTML</h2>
+            <a href="t4assetdesign.html" class="tile tile1">
+                <span class="tile-number">04.01.05</span>
+                <h2 class="tile-title">Assetliste og designdokumentation</h2>
                 <div class="tile-holder">
-                    <img class="tile-image" src="images/tema_2_phone.png" alt="Hanertbeer">
+                    <img class="tile-image" src="" alt="Idé">
                 </div>
             </a>
-            <a href="tema2.html" class="tile">
-                <span class="tile-number">02.04.02</span>
-                <h2 class="tile-title">Grundlæggende HTML</h2>
+            <a href="t4spil.html" class="tile tile2">
+                <span class="tile-number">04.05.01</span>
+                <h2 class="tile-title">Individuelt Spil</h2>
                 <div class="tile-holder">
-                    <img class="tile-image" src="images/tema_2_phone.png" alt="Hanertbeer">
+                    <img class="tile-image" src="" alt="Endelig Prototype">
                 </div>
             </a>
         </div>
     </main>
-    <script src="script.js">
-    </script>
+    <script src="script.js"></script>
 </body></html>

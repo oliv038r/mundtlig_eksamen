@@ -30,6 +30,7 @@ body {
     position: relative;
     transition: all .4s ease-in-out;
     padding: 3em 3em 4em;
+    margin-right: -5em;
 }
 
 .tile1 {

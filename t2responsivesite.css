@@ -94,6 +94,7 @@
     font-weight: 500;
     font-size: 3em;
     text-transform: uppercase;
+
 }
 
 .first-section p {
@@ -138,8 +139,6 @@
     justify-content: center;
 }
 
-
-
 .proces-pos {
     position: relative;
 }
@@ -154,19 +153,16 @@
     overflow-y: auto;
     position: relative;
     filter: drop-shadow(0 52px 74px rgba(0, 21, 64, .138559));
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .flexy-block-nomove {
     height: auto;
-    width: 1300px;
-    box-shadow: 0 52px 74px rgba(0, 21, 64, .138559);
-
-
+    width: 1500px;
 }
 
-.work > img {
-    position: relative;
+.work {
+    border-radius: 30px;
 }
 
 .fourth-section {
