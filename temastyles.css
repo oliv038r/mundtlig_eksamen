@@ -525,4 +525,8 @@
     .continue-link-long {
         font-size: 2em;
     }
+
+    .project-title-long {
+        font-size: 24px;
+    }
 }
