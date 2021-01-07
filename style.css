@@ -88,6 +88,7 @@ nav {
     text-transform: none;
 }
 
+
 /*drop-down*/
 
 ul li ul {
@@ -186,7 +187,6 @@ ul li ul li {
 
 
 /*main - forside */
-
 .sidebar-wrapper {
     position: fixed;
     left: 0px;
@@ -223,7 +223,6 @@ ul li ul li {
     flex-direction: column;
     font-size: 16px;
     line-height: 36px;
-
 }
 
 .front-image {
@@ -231,6 +230,17 @@ ul li ul li {
     margin-top: 2em;
 }
 
+.back-to-landing {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 2%;
+}
+
+.back-to-landing:hover {
+    transform: scale(1.5);
+    transform: rotate(10deg);
+}
 
 .content-wrapper {
     position: static;
