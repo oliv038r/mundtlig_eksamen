@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#screen {
+    width: 100vw;
+    height: 56.25vw;
+    overflow: hidden;
+}
+
+#game {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#game_background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(350deg, #f8c6ff -6%, rgba(255, 196, 255, 0) 60%), #ffeec4;
+}
+
+#game_ui h1 {
+    position: absolute;
+    top: 15vw;
+    left: 10vw;
+    font-size: 10vw;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: mediumpurple;
+    padding: 1vw;
+    z-index: 2;
+}
+
+#game_ui span {
+    position: absolute;
+    top: 36vw;
+    left: 40vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: pink;
+}
+
+#game_ui h1:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+    color: lightcyan;
+}
+
+#elements {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#cloud1_container {
+    position: absolute;
+    top: 0vw;
+    left: -15vw;
+    width: 20vw;
+    height: 20vw;
+}
+
+#cloud2_container {
+    position: absolute;
+    top: 15vw;
+    left: -15vw;
+    width: 20vw;
+    height: 20vw;
+}
+
+#cloud3_container {
+    position: absolute;
+    top: 30vw;
+    left: -15vw;
+    width: 20vw;
+    height: 20vw;
+}
+
+#cloud1_sprite {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/cloud.svg);
+    background-size: 100%;
+}
+
+#cloud2_sprite {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/cloud.svg);
+    background-size: 100%;
+}
+
+#cloud3_sprite {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/cloud.svg);
+    background-size: 100%;
+}
+
+.flyv {
+    animation-name: flyv_kf;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+@keyframes flyv_kf {
+    0% {
+        left: -20vw;
+    }
+
+    100% {
+        left: 110vw;
+    }
+}
+
+.flyv2 {
+    animation-name: flyv_kf2;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+@keyframes flyv_kf2 {
+    0% {
+        left: -40vw;
+    }
+
+    100% {
+        left: 110vw;
+    }
+}
+
+.flyv3 {
+    animation-name: flyv_kf3;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+@keyframes flyv_kf3 {
+    0% {
+        left: -40vw;
+    }
+
+    100% {
+        left: 110vw;
+    }
+}
+
+.scale {
+    animation-name: scale_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes scale_kf {
+    0% {
+        transform: scale(1);
+
+    }
+
+    50% {
+        transform: scale(1.005);
+
+    }
+
+    100% {
+        transform: scale(1);
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #screen {
+        height: 768px;
+    }
+
+    #game_ui h1 {
+        top: 25vw;
+    }
+
+    #game_ui span {
+        top: 48vw;
+        left: 35vw;
+
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #screen {
+        height: 736px;
+    }
+
+    #game_ui h1 {
+        top: 90vw;
+        font-size: 15vw;
+        left: 0vw;
+        text-align: center;
+        line-height: 1.3
+    }
+
+    #game_ui span {
+        top: 145vw;
+        left: 15vw;
+        text-align: center;
+        color: lightcyan
+    }
+}
