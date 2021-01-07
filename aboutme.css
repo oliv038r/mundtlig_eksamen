@@ -1,0 +1,95 @@
+.project-hero {
+    background: linear-gradient(350deg, #f8c6ff -6%, rgba(255, 196, 255, 0) 60%), #ffeec4;
+}
+
+.project-hero {
+    position: relative;
+    padding: 200px 0 0;
+    height: 550px;
+    z-index: -1;
+}
+
+.project-hero-container {
+    max-width: 100%;
+    margin: 0 auto;
+    transition: all .2s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.project-images img {
+    transition: all .1s ease-in-out;
+    position: relative;
+    max-width: 20%;
+    left: 40%;
+}
+
+.about-section {
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 1600px;
+}
+
+.section-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+    border-radius: 20px;
+}
+
+.row {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: #f8c6ff solid 3px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.col2 .row {
+    grid-row-gap: 10px;
+}
+
+.abilities-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.col-left,
+.col-right {
+    margin: 10px;
+}
+
+.col-left,
+.col-right h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.col-right .intro {
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+.col-right li {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    line-height: 3;
+    display: flex;
+    font-weight: 600;
+}
+
+.col-right li p {
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px
+}
