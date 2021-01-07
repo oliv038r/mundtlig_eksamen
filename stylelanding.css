@@ -24,21 +24,14 @@ body {
 }
 
 .tile {
-    background: #f4ac4b;
+    background: linear-gradient(338.83deg, #f8c6ff -3.41%, rgba(255, 196, 255, 0) 52.31%), #ffeec4;
     width: 100%;
     border-radius: 20px;
     position: relative;
     transition: all .4s ease-in-out;
     padding: 3em 3em 4em;
     margin-right: -5em;
-}
-
-.tile1 {
-    background: linear-gradient(338.83deg, #f8c6ff -3.41%, rgba(255, 196, 255, 0) 52.31%), #ffeec4;
-}
-
-.tile2 {
-    background: linear-gradient(6.03deg, #dacdff .5%, rgba(218, 205, 255, 0) 46.89%), #ffeaee;
+    margin-bottom: 10em;
 }
 
 .tile-number {
@@ -70,6 +63,7 @@ body {
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
+
 }
 
 .tile-image {
@@ -77,6 +71,7 @@ body {
     transition: all .4s ease-in-out;
     display: inline-block;
     max-width: 75%;
+
 }
 
 @media (min-width: 544px) {
