@@ -52,12 +52,6 @@
     position: relative;
 }
 
-@media (min-width: 992px) {
-    .project-hero-ide {
-        margin-bottom: 5em;
-    }
-}
-
 
 @media (min-width: 768px) {
     .project-hero {
@@ -83,4 +77,8 @@
     .project-images-ide img:nth-child(3) {
         top: -150px;
     }
+}
+
+@media (max-width: 420px) {
+    .project-hero-container {}
 }

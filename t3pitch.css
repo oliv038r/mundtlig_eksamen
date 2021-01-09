@@ -55,13 +55,6 @@
 }
 
 
-@media (min-width: 992px) {
-    .project-hero-rs {
-        margin-bottom: 20em;
-    }
-}
-
-
 @media (min-width: 768px) {
     .project-hero {
         height: 1100px;

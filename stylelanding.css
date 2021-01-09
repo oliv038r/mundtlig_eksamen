@@ -76,7 +76,6 @@ body {
 
 @media (min-width: 544px) {
     .tiles {
-        gap: 7em;
         margin: 120px auto 0;
     }
 
