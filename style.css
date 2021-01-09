@@ -95,11 +95,13 @@ nav {
 ul li ul {
     visibility: hidden;
     opacity: 0;
-    min-width: 10rem;
+    min-width: 5rem;
     position: absolute;
     transition: all 0.5s ease;
-    display: none;
-    padding: 1em 0;
+    padding: 1.5em 0em;
+    background-color: #221E28;
+    border-radius: 0px 0px 20px 20px;
+
 }
 
 ul li:hover > ul,
@@ -141,14 +143,14 @@ ul li ul li {
     position: relative;
     bottom: 2px;
     display: inline;
-    background: white;
+    background: #f8c6ff;
     border-radius: 35px;
     color: black;
 }
 
 .navlinks.active {
     border-radius: 35px;
-    background-color: white;
+    background: #ffeec4;
     color: black;
 }
 
@@ -235,7 +237,7 @@ ul li ul li {
 }
 
 .back-to-landing {
-    position: absolute;
+    position: fixed;
     bottom: 15px;
     left: 15px;
     width: 2%;
@@ -290,6 +292,16 @@ ul li ul li {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
+
+.sub_title a {
+    color: black;
+}
+
+.sub_title a:hover {
+    color: lightcyan;
+}
+
+
 
 .tema {
     width: 100%;
@@ -353,6 +365,10 @@ ul li ul li {
     .tema_image {
         margin-bottom: 35px;
         margin-left: 25%;
+    }
+
+    .back-to-landing {
+        display: none;
     }
 
     /*    nav    */
@@ -429,6 +445,10 @@ ul li ul li {
 
     .about_text {
         padding: 0;
+    }
+
+    .nav-links {
+        width: 100%;
     }
 
     .sidebar-wrapper {
