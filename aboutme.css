@@ -58,10 +58,10 @@
 .section-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 280px;
+    grid-column-gap: 100px;
     border-radius: 20px;
     margin-left: 20px;
-    margin-left: 20px;
+    margin-right: 20px;
     align-items: center;
     margin-bottom: 8em;
 }
@@ -74,7 +74,6 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 50px;
-    max-width: 600px;
 }
 
 .col2 .row {
@@ -147,7 +146,6 @@
     .section-wrapper {
         display: block;
         text-align: center;
-        margin-left: 20%;
         margin-top: 15em;
     }
 
