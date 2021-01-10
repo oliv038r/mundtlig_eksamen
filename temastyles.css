@@ -261,6 +261,26 @@
     margin-bottom: 10em;
 }
 
+.recording-container-pt {
+    max-width: 300px;
+}
+
+.recording-container-pi {
+    max-width: 600px;
+}
+
+.recording-container-spil {
+    max-width: 450px;
+}
+
+.recording-container-pilot {
+    max-width: 800px;
+}
+
+.recording-container-rd {
+    max-width: 700px;
+}
+
 .recording {
     width: 100%;
     height: 100%;
