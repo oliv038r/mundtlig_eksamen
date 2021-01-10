@@ -103,6 +103,12 @@ body {
 }
 
 
+@media (max-width: 768px) {
+    .maintitle {
+        font-size: 2rem;
+    }
+}
+
 @media (min-width: 1230px) {
     .tile {
         display: flex;

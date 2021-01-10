@@ -201,6 +201,13 @@
     }
 }
 
+@media (max-width: 736px) {
+    .test1 {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
 /* --------------------------- Pdf sektion --------------------------*/
 
 
@@ -237,6 +244,14 @@
         max-width: 90%;
         margin-left: 5%;
         margin-bottom: 10em;
+    }
+}
+
+@media (max-width: 736px) {
+    .pdf-section {
+        max-width: 70%;
+        margin-left: 15%;
+        margin-bottom: 5em;
     }
 }
 
@@ -327,7 +342,7 @@
     border-radius: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 736px) {
     .examples-row {
         gap: 3em;
         margin: 3em auto;
@@ -545,6 +560,9 @@
         display: none;
     }
 }
+
+
+
 
 @media (max-width: 420px) {
 
