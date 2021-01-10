@@ -33,6 +33,33 @@
     text-transform: uppercase;
 }
 
+.live-website {
+    position: absolute;
+    right: 15px;
+    top: 100px;
+    background-color: transparent;
+    border: 3px solid #f8c6ff;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.gotoweb {
+    padding: 2em;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+
+.gotoweb:hover {
+    background-color: #f8c6ff;
+    transform: scale(1.1);
+    color: #ffeec4;
+    border-radius: 10px;
+}
+
+
 
 /* --------------------------- Text section top ------------------------*/
 
@@ -585,6 +612,19 @@
     }
 }
 
+@media (max-width: 768px) {
+    .live-website {
+
+        top: 140px;
+    }
+}
+
+@media (max-width: 736px) {
+    .live-website {
+        top: 70px;
+    }
+}
+
 
 
 
@@ -593,6 +633,14 @@
     h2,
     p {
         text-align: center;
+    }
+
+    .live-website {
+        top: 100px;
+    }
+
+    .gotoweb {
+        padding: 1em;
     }
 
     .project-title {
