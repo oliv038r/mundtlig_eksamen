@@ -167,6 +167,16 @@
     color: #656270;
 }
 
+.text-link {
+    color: aquamarine;
+    font-weight: 600;
+}
+
+.text-link:hover {
+    color: #6cd4b1;
+}
+
+
 
 /* --------------------------- Proces (2 billeder) --------------------*/
 
@@ -176,6 +186,7 @@
     position: relative;
     align-items: center;
     justify-content: center;
+    margin-top: -6em;
 }
 
 .flexy-block {
