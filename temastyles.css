@@ -39,7 +39,7 @@
     top: 100px;
     background-color: transparent;
     border: 3px solid #f8c6ff;
-    border-radius: 10px;
+    border-radius: 30px;
     z-index: 1;
 }
 
@@ -56,7 +56,7 @@
     background-color: #f8c6ff;
     transform: scale(1.1);
     color: #ffeec4;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 
