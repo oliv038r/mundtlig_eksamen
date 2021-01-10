@@ -268,6 +268,119 @@ ul li ul li {
     color: black;
 }
 
+/*---------------------- scroll down funktion ---------------------*/
+
+.mouse_scroll {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 100px;
+    margin-top: 125px;
+    position: fixed;
+    bottom: 5px;
+    margin-left: 2em;
+}
+
+.m_scroll_arrows {
+    display: block;
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg);
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 0 0 3px 4px;
+    width: 16px;
+    height: 16px;
+}
+
+.one {
+    margin-top: 1px;
+    animation-direction: alternate;
+    animation-delay: alternate;
+}
+
+.two {
+    animation-delay: .2s;
+    animation-direction: alternate;
+    margin-top: -6px;
+}
+
+.three {
+    animation-delay: .3s;
+    animation-direction: alternate;
+    margin-top: -6px;
+}
+
+.one,
+.two,
+.three {
+    animation: mouse-scroll 1s infinite;
+}
+
+.mouse {
+    height: 42px;
+    width: 24px;
+    border-radius: 14px;
+    transform: none;
+    border: 2px solid black;
+    top: 170px;
+}
+
+.wheel {
+    height: 5px;
+    width: 2px;
+    display: block;
+    margin: 5px auto;
+    background: black;
+    position: relative;
+    height: 4px;
+    width: 4px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.wheel {
+    animation: mouse-wheel 1s linear infinite;
+}
+
+@keyframes mouse-wheel {
+
+    0% {
+        top: 1px;
+    }
+
+    25% {
+        top: 2px;
+    }
+
+    50% {
+        top: 3px;
+    }
+
+    75% {
+        top: 2px;
+    }
+
+    100% {
+        top: 1px;
+    }
+}
+
+@keyframes mouse-scroll {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 2;
+    }
+}
+
 .tema_image {
     width: 50%;
     margin-left: 40%;
@@ -341,6 +454,10 @@ ul li ul li {
 
     .about {
         width: auto;
+    }
+
+    .mouse_scroll {
+        display: none;
     }
 
     .sidebar-wrapper {
