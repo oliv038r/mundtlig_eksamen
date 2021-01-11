@@ -146,7 +146,10 @@
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
+}
 
+.text-section-short {
+    margin-top: -4em;
 }
 
 .text-section h2 {
@@ -277,7 +280,7 @@
 .pdf-section iframe {
     border-radius: 30px;
     border-style: none;
-    width: 100%;
+    width: 70%;
     height: 700px;
     margin-bottom: 2em;
 
