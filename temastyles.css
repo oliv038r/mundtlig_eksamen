@@ -1,4 +1,7 @@
 /* --------------------------- Generelt --------------------------*/
+html {
+    scroll-behavior: smooth;
+}
 
 .section-row {
     box-sizing: border-box;
@@ -424,6 +427,22 @@
 
 }
 
+/* --------------------------- To top knap ------------------------*/
+
+.gotopbtn {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(350deg, #f8c6ff -6%, rgba(255, 196, 255, 0) 60%), #ffeec4;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+}
+
 /* --------------------------- continue sektion ------------------------*/
 
 .continue {
@@ -704,8 +723,22 @@
         text-align: center;
     }
 
+    .proces {
+
+        margin-top: 0em;
+    }
+
+    .proces2 {
+        margin-top: 1em;
+    }
+
     .text-section-top-pt h2 {
         margin-top: 2em;
+    }
+
+    .section-row-caption {
+        margin-bottom: 2em;
+        margin-top: -2em;
     }
 
     .continue-link {
