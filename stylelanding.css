@@ -72,26 +72,11 @@ body {
     position: relative;
     transition: all .4s ease-in-out;
     display: inline-block;
-    max-width: 75%;
+    max-width: 45%;
 }
 
-.tile-image-ide {
-    max-width: 35%;
-    border-radius: 20px;
-}
-
-.tile-image-ide2 {
-    max-width: 35%;
-    border-radius: 20px;
-}
-
-.tile-image-asset {
-    max-width: 40%;
-    border-radius: 20px;
-}
-
-.tile-image-spil {
-    width: 800px;
+.tile-image-pc {
+    max-width: 65%;
     border-radius: 20px;
 }
 

@@ -382,7 +382,12 @@ ul li ul li {
 }
 
 .tema_image {
-    width: 50%;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.tema_image2 {
+    width: 40%;
     margin-left: 40%;
 }
 
