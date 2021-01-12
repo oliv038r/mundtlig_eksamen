@@ -4,12 +4,13 @@
 
 body {
     margin: 0;
+    overflow: hidden;
 }
 
 #screen {
     width: 100vw;
     height: 60vw;
-    overflow: hidden;
+
 }
 
 #game {
