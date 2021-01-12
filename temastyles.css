@@ -222,6 +222,16 @@ html {
     margin: 2em auto;
 }
 
+.scale:hover {
+    position: relative;
+    top: -25px;
+    left: -150px;
+    min-width: 500px;
+    height: auto;
+    display: block;
+    z-index: 999;
+}
+
 /* --------------------------- 4 billeder grid ------------------------*/
 
 .test1 {
@@ -297,14 +307,14 @@ html {
 .pdf-section-game iframe {
     width: 90%;
     max-height: 510px;
-    margin-bottom: 0em;
+    margin-bottom: -2em;
 }
 
 
 
 @media (min-width: 420px) {
     .pdf-section {
-        margin: 6em auto 20em;
+        margin: 2em auto 14em;
     }
 }
 
@@ -321,7 +331,15 @@ html {
         margin-left: 5%;
         margin-bottom: 10em;
     }
-}
+
+    .pdf-section-game {
+        display: none;
+    }
+
+    .section-row-game {
+        display: none;
+    }
+    }
 
 @media (max-width: 736px) {
     .pdf-section {
@@ -344,7 +362,7 @@ html {
 }
 
 .recording-container {
-    width: 100%;
+    width: 70%;
     max-width: 1498px;
     overflow: hidden;
     box-shadow: 0 52px 74px rgba(0, 21, 64, .138559);
@@ -417,6 +435,20 @@ html {
     left: 0;
     top: 10%;
     border-radius: 20px;
+}
+
+@media (max-width: 420px) {
+    .examples-row {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .second-section:before {
+        top: 0%;
+        height: 105%;
+        width: 80%;
+        margin-left: 10%;
+    }
 }
 
 @media (min-width: 736px) {
@@ -665,7 +697,6 @@ html {
 
 @media (max-width: 768px) {
     .live-website {
-
         top: 140px;
     }
 }

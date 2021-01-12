@@ -73,6 +73,8 @@ nav {
     text-decoration: none;
 }
 
+
+
 .logotext {
     position: static;
     margin-bottom: -5px;
@@ -87,6 +89,11 @@ nav {
     letter-spacing: 4px;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.logotext:hover {
+    color: #f8c6ff;
+    transform: translateY(-0.2em);
 }
 
 .tagline {
@@ -424,7 +431,7 @@ ul li ul li {
 }
 
 .sub_title a:hover {
-    color: lightcyan;
+    color: #f8c6ff;
 }
 
 

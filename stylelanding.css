@@ -20,7 +20,6 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: 4em auto 0;
-    gap: 4em;
 }
 
 .tile {
@@ -31,7 +30,7 @@ body {
     transition: all .4s ease-in-out;
     padding: 3em 3em 4em;
     margin-right: -5em;
-    margin-bottom: 10em;
+    margin-bottom: 2em;
 }
 
 .tile-number {
@@ -112,6 +111,10 @@ body {
 @media (max-width: 768px) {
     .maintitle {
         font-size: 2rem;
+    }
+
+    .tile-image-pc {
+        max-width: 105%;
     }
 }
 
